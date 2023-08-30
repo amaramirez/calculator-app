@@ -1,0 +1,9 @@
+.numbers {
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.zero {
+    grid-column: 1 / 4;
+}
